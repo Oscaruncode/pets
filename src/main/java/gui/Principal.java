@@ -123,20 +123,20 @@ public class Principal extends javax.swing.JFrame {
 
     private void btnCargarDatosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCargarDatosActionPerformed
 
-       // CargaDatos pantalla = new CargaDatos();
-        //pantalla.setVisible(true);
-        //pantalla.setLocationRelativeTo(null);
+        Formulario pantalla = new Formulario();
+        pantalla.setVisible(true);
+        pantalla.setLocationRelativeTo(null);
     }//GEN-LAST:event_btnCargarDatosActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
 
-      //  VerDatos pantalla = new VerDatos();
-       // pantalla.setVisible(true);
-        //pantalla.setLocationRelativeTo(null);
+      Informacion pantalla = new Informacion();
+      pantalla.setVisible(true);
+      pantalla.setLocationRelativeTo(null);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
